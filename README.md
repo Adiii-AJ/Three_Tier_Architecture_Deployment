@@ -3,7 +3,7 @@
 ## Description :
 This workshop is a hands-on lab to build a 3-tier Login Page application on AWS. We will manually create the required VPC networking, security groups, application servers, and database components to run this architecture in a scalable, secure and highly available manner.
 
-## Artitecture Overview :
+## Overview :
 ![Artitecture](./Images/3-Tier-Image.jpg)
 
  In this architecture, client traffic directly hits the Web Tier (EC2 + Nginx). The Web Tier forwards requests to the Application Tier (PHP) which processes the logic and interacts with the RDS MySQL database for data operations. The Application Tier sends back the response to the Web Tier and finally returns the output to the user. Auto Scaling and Health Checks are used to maintain availability of each tier.
