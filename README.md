@@ -113,7 +113,7 @@ Choose a template.
        sudo service nginx start
        sudo systemctl enable nginx
       ```
-2. Lauch App Server in Private Subnet
+2. Launch App Server in Private Subnet
    * Install Nginx, php and php-mysql connector
    * Start and enable nginx and php-fpm
      ```
